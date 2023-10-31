@@ -1,0 +1,215 @@
+.header{
+    background-color: rgb(1, 78, 86);
+    width: 100%;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(246, 126, 126);
+}
+
+.header-h1 {
+    font-size: 40px;
+}
+
+.header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-ul {
+    gap: 40px;
+    display: flex;
+}
+
+.header-btn {
+    padding: 10px 33px;
+    border-radius: 50px;
+    background-color: rgb(1, 78, 86);
+    border-color: white;
+    color: white;
+    margin-left: 577px;
+}
+
+.header-btn:hover{
+    background-color: white;
+}
+
+.section1 {
+    background-color: rgb(1, 78, 86);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    h1 {
+        font-size: 100px;
+        span {
+            color: rgb(246, 126, 126);
+        }
+    }
+}
+
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 47, 52);
+    color: white;
+    padding: 140px 165px;
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.ul-li {
+    display: flex;
+    align-items: center;
+}
+
+.span2 {
+    color: rgb(246, 126, 126);
+    margin-bottom: 20px;
+}
+
+.section3 {
+    background-color: rgb(1, 78, 86);
+    color: white;
+    margin-top: -60px;
+    padding: 140px 254px;
+    h1 {
+        margin-left: 300px;
+    }
+}
+
+.section3-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 56px;
+}
+
+.section4 {
+    background-color: rgb(246, 126, 126);
+    padding: 76px 260px;
+    display: flex;
+    align-items: center;
+    margin-top: -16px
+}
+
+.section4-btn {
+    padding: 10px 33px;
+    border-radius: 50px;
+    background-color: rgb(246, 126, 126);
+    border-color: black;
+    margin-left: 500px;
+}
+
+.section4-btn:hover {
+    background-color: rgb(1, 47, 52);
+}
+
+.section4-btn2 {
+    color: black;
+}
+
+.section4-h1 {
+    color: black;
+}
+
+// ABOUT SCSS
+// ABOUT SCSS
+// ABOUT SCSS
+// ABOUT SCSS
+
+
+.section2-about {
+    background-color:rgb(0,64,71);
+    color: white;
+    padding: 140px 165px;
+    h1 {
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.section1-p {
+    color: white;
+    font-size: 23px;
+}
+
+.section2-li {
+    background-color: rgb(1, 47, 52);
+    padding: 32px 60px 56px 60px;
+    width: 20%
+}
+
+.section2-ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+//contakt scss
+//contakt scss
+//contakt scss
+//contakt scss
+
+.contact-main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 78, 86);
+}
+.cotakt-span{
+    color: rgb(246, 126, 126);
+}
+.contakt-section1{
+    background-color: rgb(1, 78, 86);
+    margin-top: -30px;
+    color: white;
+    h1{
+        padding: 120px 220px 16px 165px;
+        font-size: 60px;
+    }
+}
+.padding{
+    margin-left: 165px; 
+    font-size: 23px;
+}
+.contact-ul{
+    margin-bottom: 120px;
+    margin-left: 120px;
+}
+.contact-li{  
+    margin-top: 24px; 
+    input{
+        border: none;
+        border-bottom: 2px solid silver;
+        width: 540px;
+        height: 42px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    } 
+}
+.contact-btn{
+    padding: 10px 32px;
+    border-radius: 20px;
+}
+.contact-btn:hover{
+    background-color: rgb(1, 78, 86);
+    color: aqua;
+}
